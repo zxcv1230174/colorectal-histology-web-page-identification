@@ -235,6 +235,9 @@ train1:訓練模型(增加unknown類別)
 
 圖片格式轉換:將unknown資料集圖片統一轉換為png檔
 
-Kather_texture_2016_image_tiles_5000.zip:TensorFlow Dataset下載的colorectal_histology的資料集(內有5000張圖共8類，每類共625張圖)
+Kather_texture_2016_image_tiles_5000.zip:TensorFlow Dataset下載的colorectal_histology的資料集(使用tfds.load下載，內有5000張圖共8類，每類共625張圖)
 
 CRC-VAL-HE-7K.zip:測試用資料集(因為有些類別的處理方法與TensorFlow Dataset的不太一樣所以導致辨識率不高)
+
+網頁程式碼與使用的模型、訓練、測試資料
+https://mega.nz/folder/fAASkIYD#wHIa66AXUzvOMp6t7jKwoA
