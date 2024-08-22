@@ -1,4 +1,4 @@
-# colorectal_histology
+# colorectal_histology網頁辨識
 anaconda虛擬環境Python版本：Python 3.10.12
 
 所有的套件版本：
