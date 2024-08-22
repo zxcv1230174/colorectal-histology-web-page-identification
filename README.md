@@ -3,7 +3,6 @@ anaconda虛擬環境Python版本：Python 3.10.12
 
 所有的套件版本：
 Package                      Version
----------------------------- --------
 absl-py                      2.1.0
 asttokens                    2.4.1
 astunparse                   1.6.3
@@ -105,7 +104,7 @@ Werkzeug                     3.0.3
 wheel                        0.43.0
 wrapt                        1.16.0
 zipp                         3.19.2
--------------------------------------
+
 訓練用：
 TensorFlow Dataset colorectal_histology
 https://www.tensorflow.org/datasets/catalog/colorectal_histology
