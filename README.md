@@ -222,6 +222,9 @@ unknown資料集
 CRC-VAL-HE-7K
 https://zenodo.org/records/1214456
 
+Roboflow資料集
+https://universe.roboflow.com/vit-quoks/vit-kww1n
+
 檔案功能
 
 predict:辨識用
