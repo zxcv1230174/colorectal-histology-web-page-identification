@@ -215,7 +215,7 @@ TensorFlow Dataset colorectal_histology
 https://www.tensorflow.org/datasets/catalog/colorectal_histology
 
 unknown資料集
-從twitter的繪師與網路上的輕小說插圖蒐集，不方便提供(請自行新增unknown資料集，共需625張圖片)
+從twitter的繪師與網路上的輕小說插圖蒐集，不方便提供(請自行新增unknown資料集，共需625張圖片且為png檔，如果其中某一類別圖片過多會導致模型權重偏向資料量多的類別)
 
 測試用：
 
