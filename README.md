@@ -229,15 +229,15 @@ https://universe.roboflow.com/vit-quoks/vit-kww1n
 
 predict:辨識用
 
-train:訓練模型(未增加unknown類別)
+train:訓練模型(未增加unknown類別，先讓模型學習如何分類8類直腸癌類別)
 
-train1:訓練模型(增加unknown類別)
+train1:訓練模型(使用train所訓練的模型另外增加unknown類別的資料集訓練來防止使用者上傳非直腸癌圖片)
 
-圖片格式轉換:將unknown資料集圖片統一轉換為png檔
+圖片格式轉換:將unknown資料集圖片統一轉換為png檔(非統一圖檔會讓圖片無法正常載入和訓練)
 
 Kather_texture_2016_image_tiles_5000.zip:TensorFlow Dataset下載的colorectal_histology的資料集(使用tfds.load下載，內有5000張圖共8類，每類共625張圖)
 
-CRC-VAL-HE-7K.zip:測試用資料集(因為有些類別的處理方法與TensorFlow Dataset的不太一樣所以導致辨識率不高)
+CRC-VAL-HE-7K.zip:測試用資料集(有些類別的圖片擷取方法與TensorFlow Dataset的不同而導致辨識率不高)
 
 網頁程式碼與使用的模型、訓練、測試資料
 https://mega.nz/folder/fAASkIYD#wHIa66AXUzvOMp6t7jKwoA
