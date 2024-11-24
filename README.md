@@ -1,4 +1,5 @@
 # colorectal_histology網頁辨識
+ipynb檔為一年前Colab的執行結果，如果使用新版本的可能會結果不同(不確定當時的套件版本為多少)
 anaconda虛擬環境Python版本：Python 3.10.12
 
 所有的套件版本：
