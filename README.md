@@ -210,6 +210,102 @@ zipp                         3.19.2
 
 -------------------------------------------------------------------------------------
 
+虛擬機anaconda虛擬環境Python版本：Python 3.10.15
+
+Package                      Version
+
+absl-py                      2.1.0
+
+astunparse                   1.6.3
+
+certifi                      2024.8.30
+
+charset-normalizer           3.4.0
+
+flatbuffers                  24.3.25
+
+gast                         0.6.0
+
+google-pasta                 0.2.0
+
+grpcio                       1.67.1
+
+h5py                         3.12.1
+
+idna                         3.10
+
+keras                        3.4.1
+
+libclang                     18.1.1
+
+Markdown                     3.7
+
+markdown-it-py               3.0.0
+
+MarkupSafe                   3.0.2
+
+mdurl                        0.1.2
+
+ml-dtypes                    0.3.2
+
+namex                        0.0.8
+
+numpy                        1.25.2
+
+opt_einsum                   3.4.0
+
+optree                       0.13.0
+
+packaging                    24.2
+
+pandas                       2.2.2
+
+pillow                       10.4.0
+
+pip                          24.2
+
+protobuf                     4.25.5
+
+Pygments                     2.18.0
+
+python-dateutil              2.9.0.post0
+
+pytz                         2024.2
+
+requests                     2.32.3
+
+rich                         13.9.4
+
+setuptools                   75.1.0
+
+six                          1.16.0
+
+tensorboard                  2.16.2
+
+tensorboard-data-server      0.7.2
+
+tensorflow                   2.16.2
+
+tensorflow-intel             2.16.2
+
+tensorflow-io-gcs-filesystem 0.31.0
+
+termcolor                    2.5.0
+
+typing_extensions            4.12.2
+
+tzdata                       2024.2
+
+urllib3                      2.2.3
+
+Werkzeug                     3.1.3
+
+wheel                        0.44.0
+
+wrapt                        1.16.0
+
+-------------------------------------------------------------------------------------
+
 訓練用：
 
 TensorFlow Dataset colorectal_histology
