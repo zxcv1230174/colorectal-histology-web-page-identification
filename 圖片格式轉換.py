@@ -2,10 +2,11 @@ import os
 from PIL import Image
 from pathlib import Path
 
+current_dir = os.path.dirname(__file__)
 # 來源目錄
-source_dir = 'C:\\Users\\ab090\\Desktop\\TEST\\unknown'
+source_dir = os.path.join(current_dir, 'unknown')
 # 目標目錄
-target_dir = 'C:\\Users\\ab090\\Desktop\\TEST\\unknown_dataset'
+target_dir = os.path.join(current_dir, 'unknown_dataset')
 
 # 建立目標目錄如果不存在
 Path(target_dir).mkdir(parents=True, exist_ok=True)
